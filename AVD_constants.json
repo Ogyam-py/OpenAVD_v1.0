@@ -17,7 +17,7 @@
     "C3": 0.06,
     "C4": -0.05,
     "C5": 0.05,
-    "M": 0.85,
+    "M": [0.85],
     "T_W": 0.2,
     "L_D": 14.4,
     "L_D_cruise": 12.4704,
@@ -27,7 +27,8 @@
     "AR": 10.58,
     "altitude": 12000,
     "theta_approach": 3,
-    "Sa": 304.8
+    "Sa": 304.8,
+    "C_avionics": 2000
 },
 
 "fighter jet":{
@@ -36,7 +37,7 @@
         [0.985, true],
         ["c", false],
         [0.99, false],
-        [null, false],
+        [0.975, false],
         [0.985, true],
         ["c", false],
         ["l", false],
@@ -53,8 +54,9 @@
     "C3": 0.04,
     "C4": -0.10,
     "C5": 0.08,
-    "M_1": 0.85,
-    "M": 1.05,
+    "M":[
+        0.85,
+        1.05],
     "T_W": 0.6,
     "L_D": 11.0,
     "L_D_cruise": 9.526,
@@ -65,8 +67,8 @@
     "altitude_1": 10000,
     "altitude_2": 2500,
     "theta_approach": 7,
-    "Sa": 124.1    
-
+    "Sa": 124.1,
+    "C_avionics": 2500
 },
 "seaplane":{
     "W_fraction": [
@@ -86,7 +88,7 @@
     "C3": 0.05,
     "C4": -0.12,
     "C5": 0.18,
-    "M": 0.2,
+    "M": [0.2],
     "T_W": 0.16,
     "L_D": 12.1,
     "L_D_cruise": 12.1,
@@ -97,9 +99,9 @@
     "altitude_1": 10000,
     "altitude_2": 2500,
     "theta_approach": 3,
-    "Sa": 124.1
+    "Sa": 124.1,
+    "C_avionics": 1500
 },
-
 
 "uni_constants":{
     "souls_weight": 95.25,
@@ -109,5 +111,12 @@
     "air_density": 1.225,
     "W0_guess": 2267.962,
     "Y_sscg": 0.024,
-    "Y_ma": 0.021
+    "Y_ma": 0.021,
+    "R_eng": 59.1,
+    "R_tooling": 60.7,
+    "R_quality": 55.4,
+    "R_mfg": 50.10,
+    "Q": 1,
+    "FTA": 2,
+    "T_inlet": 518.67
 }}
